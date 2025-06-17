@@ -1,0 +1,10 @@
+CREATE DATABASE chess_rpg;
+
+USE chess_rpg;
+
+CREATE TABLE players (
+id INT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(50) NOT NULL,
+    xp INT DEFAULT 0,
+    coins INT DEFAULT 0
+    );
